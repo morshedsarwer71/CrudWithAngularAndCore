@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/morshedsarwer/Desktop/C#/web/crudwithanglur/PaymentApi/PaymentApi.csproj": {}
+  },
+  "projects": {
+    "/Users/morshedsarwer/Desktop/C#/web/crudwithanglur/PaymentApi/PaymentApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/morshedsarwer/Desktop/C#/web/crudwithanglur/PaymentApi/PaymentApi.csproj",
+        "projectName": "PaymentApi",
+        "projectPath": "/Users/morshedsarwer/Desktop/C#/web/crudwithanglur/PaymentApi/PaymentApi.csproj",
+        "packagesPath": "/Users/morshedsarwer/.nuget/packages/",
+        "outputPath": "/Users/morshedsarwer/Desktop/C#/web/crudwithanglur/PaymentApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/morshedsarwer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
